@@ -1,0 +1,30 @@
+.card {
+  display: flex;
+  gap: 20px;
+  background: #A6CBDE;
+  padding: 25px;
+  border-radius: 16px;
+  align-items: center;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card-text {
+  flex: 2;
+  text-align: justify;
+  font-size: 14px;
+  line-height: 1.5;
+  color: black;
+  font-weight: 400;
+}
+
+.card-image {
+  flex: 1;
+}
+
+.card-image img {
+  width: 100%;
+  border-radius: 20px; /* igual da imagem */
+  object-fit: cover;
+}
