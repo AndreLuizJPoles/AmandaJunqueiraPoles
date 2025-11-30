@@ -1,7 +1,7 @@
 
 import { InformationCircleIcon } from "@heroicons/react/24/outline"
-import { Card } from "../components/card/Card"
-import { TitleCard } from "../components/titleCard/TitleCard"
+import { Card } from "../components/Card/Card"
+import { TitleCard } from "../components/TitleCard/TitleCard"
 
 
 export function AboutMe() {
