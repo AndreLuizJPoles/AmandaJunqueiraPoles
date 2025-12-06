@@ -1,0 +1,44 @@
+.carousel-card {
+  width: 300px;
+  height: 30rem;
+  background: var(--color-primary);
+  border-radius: 8px;
+  padding: 18px 16px;
+  box-shadow: 0 3px 8px var(--shadow);
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carousel-card-image {
+  width: 50%;
+  max-width: 220px;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.carousel-card-content {
+  width: 100%;
+  padding-bottom: 6px;
+  text-align: left;
+}
+
+.carousel-card-content h2 {
+  text-align: center;
+}
+
+.carousel-card-content p {
+  text-align: left;
+  line-height: 1.4;
+  text-align: justify;
+}

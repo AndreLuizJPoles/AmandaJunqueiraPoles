@@ -6,7 +6,7 @@
   border-radius: 16px;
   align-items: center;
   border: 1px solid black;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 3px 8px var(--shadow);
   max-width: 1000px;
   margin: 0 auto;
 }

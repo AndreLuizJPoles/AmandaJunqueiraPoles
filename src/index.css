@@ -1,9 +1,11 @@
 :root {
   --color-background: #EAEDF2;
   --color-primary: #A6CBDE;
+  --shadow: #00000026;
 }
 
 body {
   background-color: var(--color-background);
+  color: black;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
