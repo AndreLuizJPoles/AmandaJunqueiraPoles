@@ -1,12 +1,74 @@
 import { StarIcon } from "@heroicons/react/24/outline";
 import { TitleCard } from "../components/TitleCard/TitleCard";
-import { CarouselCard } from "../components/Carousel/Carousel";
+import { Carousel, CarouselCard } from "../components/Carousel/Carousel";
 
 export function Services() {
-   return (
-      <>
-         <TitleCard title="Serviços" icon={StarIcon} />
-         <CarouselCard img="src/assets/psychology.png" imgAlt="imagem" title="Lorem Ipsum">   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec est eleifend, fermentum dolor nec, tempor eros. Phasellus fermentum commodo imperdiet. Praesent sed sollicitudin libero. Fusce finibus maximus vulputate. Aenean ut neque aliquet nisi vestibulum sagittis. Etiam ac tortor vel mi tristique convallis sit amet a nisl. </CarouselCard>
-      </>
-   )
+  return (
+    <>
+      <TitleCard title="Serviços" icon={StarIcon} />
+      <Carousel>
+        <CarouselCard
+          img="https://placehold.co/400x200"
+          title="Primeiro Card"
+        >
+          Texto do primeiro card.
+        </CarouselCard>
+
+        <CarouselCard
+          img="https://placehold.co/400x200?text=Card+2"
+          title="Segundo Card"
+        >
+          Mais conteúdo aqui.
+        </CarouselCard>
+
+        <CarouselCard
+          img="https://placehold.co/400x200?text=Card+3"
+          title="Terceiro Card"
+        >
+          Outro card para o carrossel.
+        </CarouselCard>
+        <CarouselCard
+          img="https://placehold.co/400x200"
+          title="Primeiro Card"
+        >
+          Texto do primeiro card.
+        </CarouselCard>
+
+        <CarouselCard
+          img="https://placehold.co/400x200?text=Card+2"
+          title="Segundo Card"
+        >
+          Mais conteúdo aqui.
+        </CarouselCard>
+
+        <CarouselCard
+          img="https://placehold.co/400x200?text=Card+3"
+          title="Terceiro Card"
+        >
+          Outro card para o carrossel.
+        </CarouselCard>
+        <CarouselCard
+          img="https://placehold.co/400x200"
+          title="Primeiro Card"
+        >
+          Texto do primeiro card.
+        </CarouselCard>
+
+        <CarouselCard
+          img="https://placehold.co/400x200?text=Card+2"
+          title="Segundo Card"
+        >
+          Mais conteúdo aqui.
+        </CarouselCard>
+
+        <CarouselCard
+          img="https://placehold.co/400x200?text=Card+3"
+          title="Terceiro Card"
+        >
+          Outro card para o carrossel.
+        </CarouselCard>
+      </Carousel>
+
+    </>
+  )
 }
