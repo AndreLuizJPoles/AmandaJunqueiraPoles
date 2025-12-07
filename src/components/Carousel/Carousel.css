@@ -60,7 +60,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: #ffffffdd;
+  background: var(--color-primary);
   border: none;
   font-size: 2.2rem;
   padding: 0.3rem 0.7rem;
@@ -68,6 +68,7 @@
   z-index: 20;
   border-radius: 8px;
   box-shadow: 0 2px 6px var(--shadow);
+  border: 1px solid black;
   transition: background 0.2s, transform 0.2s;
 }
 
