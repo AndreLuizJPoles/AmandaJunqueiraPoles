@@ -1,7 +1,16 @@
-import { useKeenSlider } from "keen-slider/react"
-import "keen-slider/keen-slider.min.css"
-import React from "react"
-import "./Carousel.css"
+import { Swiper, type SwiperProps } from 'swiper/react'
+import type { ReactNode } from 'react'
+import { A11y, Navigation, Pagination } from 'swiper/modules'
+
+import './Carousel.css'
+import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
+
+interface CarouselProps {
+  children: ReactNode
+  settings?: SwiperProps
+}
 
 export interface ICarouselCard {
   img?: string
@@ -10,39 +19,11 @@ export interface ICarouselCard {
   children?: React.ReactNode
 }
 
-export function Carousel({ children }: { children: React.ReactNode }) {
-  const [sliderRef, instanceRef] = useKeenSlider({
-    slides: {
-      perView: 1,
-      spacing: 15,
-    },
-    breakpoints: {
-      "(min-width: 600px)": {
-        slides: { perView: 2, spacing: 15 },
-      },
-      "(min-width: 900px)": {
-        slides: { perView: 3, spacing: 15 },
-      },
-    },
-    rubberband: false,
-  })
-
+export function Carousel({ settings, children }: CarouselProps) {
   return (
-    <div className="carousel-wrapper">
-      <button className="carousel-arrow left" onClick={() => instanceRef.current?.prev()}>
-        ‹
-      </button>
-
-      <div ref={sliderRef} className="keen-slider">
-        {React.Children.map(children, (child) => (
-          <div className="keen-slider__slide">{child}</div>
-        ))}
-      </div>
-
-      <button className="carousel-arrow right" onClick={() => instanceRef.current?.next()}>
-        ›
-      </button>
-    </div>
+    <Swiper modules={[Navigation, Pagination, A11y]} { ...settings }>
+      {children}
+    </Swiper>
   )
 }
 
