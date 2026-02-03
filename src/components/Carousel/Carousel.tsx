@@ -35,7 +35,7 @@ export function CarouselCard({ img, imgAlt, title, children }: ICarouselCard) {
       </div>
 
       <div className="carousel-card-content">
-        <h2>{title}</h2>
+        <h2 className='carousel-card-title'>{title}</h2>
         <p>{children}</p>
       </div>
     </div>

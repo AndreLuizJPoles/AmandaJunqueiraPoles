@@ -1,0 +1,34 @@
+{
+  "cards_carrousel": [
+    {
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxEOKeHkeYt7QJAUE67Gvs5Ug4FervUqzjfw&s",
+      "imgAlt": "Service 1",
+      "title": "Service 1",
+      "children": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec est eleifend, fermentum dolor nec, tempor eros. Phasellus fermentum commodo imperdiet. Praesent sed sollicitudin libero. Fusce finibus maximus vulputate. Aenean ut neque aliquet nisi vestibulum sagittis. Etiam ac tortor vel mi tristique convallis sit amet a nisl."
+    },
+    {
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxEOKeHkeYt7QJAUE67Gvs5Ug4FervUqzjfw&s",
+      "imgAlt": "Service 2",
+      "title": "Service 2",
+      "children": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec est eleifend, fermentum dolor nec, tempor eros. Phasellus fermentum commodo imperdiet. Praesent sed sollicitudin libero. Fusce finibus maximus vulputate. Aenean ut neque aliquet nisi vestibulum sagittis. Etiam ac tortor vel mi tristique convallis sit amet a nisl."
+    },
+    {
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxEOKeHkeYt7QJAUE67Gvs5Ug4FervUqzjfw&s",
+      "imgAlt": "Service 3",
+      "title": "Service 3",
+      "children": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec est eleifend, fermentum dolor nec, tempor eros. Phasellus fermentum commodo imperdiet. Praesent sed sollicitudin libero. Fusce finibus maximus vulputate. Aenean ut neque aliquet nisi vestibulum sagittis. Etiam ac tortor vel mi tristique convallis sit amet a nisl."
+    },
+    {
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxEOKeHkeYt7QJAUE67Gvs5Ug4FervUqzjfw&s",
+      "imgAlt": "Service 4",
+      "title": "Service 4",
+      "children": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec est eleifend, fermentum dolor nec, tempor eros. Phasellus fermentum commodo imperdiet. Praesent sed sollicitudin libero. Fusce finibus maximus vulputate. Aenean ut neque aliquet nisi vestibulum sagittis. Etiam ac tortor vel mi tristique convallis sit amet a nisl."
+    },
+    {
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxEOKeHkeYt7QJAUE67Gvs5Ug4FervUqzjfw&s",
+      "imgAlt": "Service 5",
+      "title": "Service 5",
+      "children": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec est eleifend, fermentum dolor nec, tempor eros. Phasellus fermentum commodo imperdiet. Praesent sed sollicitudin libero. Fusce finibus maximus vulputate. Aenean ut neque aliquet nisi vestibulum sagittis. Etiam ac tortor vel mi tristique convallis sit amet a nisl."
+    }
+  ]
+}
