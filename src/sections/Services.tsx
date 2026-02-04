@@ -1,7 +1,6 @@
 import { StarIcon } from '@heroicons/react/24/outline'
-import { TitleCard } from '../components/TitleCard/TitleCard'
-import { Carousel, CarouselCard, type ICarouselCard } from '../components/Carousel/Carousel'
 import { SwiperSlide, type SwiperProps } from 'swiper/react'
+import { Carousel, CarouselCard, TitleCard, type ICarouselCard } from '../components'
 
 interface ServicesProps {
   title: string

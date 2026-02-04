@@ -1,6 +1,5 @@
 import { PhoneIcon } from "@heroicons/react/24/outline";
-import { TitleCard } from "../components/TitleCard/TitleCard";
-import { ContactCard, type IContactCard } from "../components/ContactsCard/ContactCard";
+import { ContactCard, TitleCard, type IContactCard } from "../components";
 
 interface ContactsProps {
   title: string,
