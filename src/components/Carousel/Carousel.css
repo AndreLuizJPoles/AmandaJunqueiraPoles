@@ -1,0 +1,60 @@
+.swiper {
+  padding: 32px;
+  max-width: 77%;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--color-secondary) !important;
+}
+
+.swiper-pagination-bullet-active:hover {
+  opacity: 0.7 !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: var(--color-secondary) !important;
+  opacity: 0.5 !important;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  opacity: 0.8 !important;
+}
+
+.carousel-card {
+  width: 100%;
+  background: var(--color-primary);
+  border-radius: 8px;
+  padding: 18px 16px;
+  box-shadow: 0 3px 8px var(--shadow);
+  border: 1px solid var(--color-secondary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+.carousel-card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.carousel-card-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-card-image img {
+  width: 100%;
+  max-width: 10rem;
+  object-fit: contain;
+}
