@@ -1,19 +1,19 @@
 import './card.css'
 
 export interface ICard {
-  image?: string
-  imageAlt?: string
+  img?: string
+  imgAlt?: string
   children?: React.ReactNode
 }
 
-export function Card ({ image, imageAlt, children}: ICard) {
+export function Card ({ img, imgAlt, children}: ICard) {
   return(
     <div className='card'>
       <div className='card-text'>
         {children}
       </div>
       <div className='card-image'>
-        <img src={image} alt={imageAlt} />
+        <img src={img} alt={imgAlt} />
       </div>
     </div>
   )

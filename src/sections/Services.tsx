@@ -4,10 +4,11 @@ import { Carousel, CarouselCard, type ICarouselCard } from '../components/Carous
 import { SwiperSlide, type SwiperProps } from 'swiper/react'
 
 interface ServicesProps {
+  title: string
   cards: Array<ICarouselCard>
 }
 
-export function Services({ cards }: ServicesProps) {
+export function Services({ title, cards }: ServicesProps) {
   const settings: SwiperProps = {
     spaceBetween: 20,
     slidesPerView: cards.length < 3 ? cards.length : 3,
@@ -19,7 +20,7 @@ export function Services({ cards }: ServicesProps) {
 
   return (
     <>
-      <TitleCard title='Serviços' icon={StarIcon} />
+      <TitleCard title={title} icon={StarIcon} />
       <Carousel settings={settings}>
         {cards.map((card) => (
           <SwiperSlide key={card.title}>
