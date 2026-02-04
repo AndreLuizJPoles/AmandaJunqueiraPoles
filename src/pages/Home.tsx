@@ -1,7 +1,7 @@
 import { AboutMe } from "../sections/AboutMe";
 import { Contacts } from "../sections/Contacts";
 import { Services } from "../sections/Services";
-import { services, about_me } from "../components/componentsMock.json";
+import { services, about_me, contacts } from "../components/componentsMock.json";
 
 export function Home() {
   return (
@@ -10,7 +10,15 @@ export function Home() {
       <main>
         {about_me && <AboutMe { ...about_me } />}
         {services && <Services { ...services } />}
-        <Contacts />
+        {contacts && (
+          <Contacts
+            {...contacts}
+            items={contacts.items.map((item: any) => ({
+              ...item,
+              value: item.value ?? ""
+            }))}
+          />
+        )}
       </main>
       <footer></footer>
     </>

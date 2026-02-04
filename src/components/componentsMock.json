@@ -41,5 +41,20 @@
         "children": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec est eleifend, fermentum dolor nec, tempor eros. Phasellus fermentum commodo imperdiet. Praesent sed sollicitudin libero. Fusce finibus maximus vulputate. Aenean ut neque aliquet nisi vestibulum sagittis. Etiam ac tortor vel mi tristique convallis sit amet a nisl."
       }
     ]
+  },
+  "contacts": {
+    "title": "Contatos",
+    "items": [
+      {
+        "icon": "/assets/icons/instagram.png",
+        "label": "@amandajunqueirapoles",
+        "value": "https://www.instagram.com/amandajunqueirapoles/"
+      },
+      {
+        "icon": "/assets/icons/whatsapp.png",
+        "label": "+55 11 99999-9999",
+        "value": "https://www.google.com"
+      }
+    ]
   }
 }

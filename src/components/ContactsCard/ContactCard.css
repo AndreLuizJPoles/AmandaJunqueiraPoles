@@ -1,0 +1,39 @@
+.contact-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  max-width: 1000px;
+  border: 1px solid var(--color-secondary);
+  border-radius: 16px;
+  background-color: var(--color-primary);
+  margin: 0 auto;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 0 1rem;
+}
+
+.contact-item img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.contact-label{
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-secondary);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contact-label:hover {
+  opacity: 0.7;
+}
+
