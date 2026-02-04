@@ -1,9 +1,11 @@
 .swiper {
+  width: 100%;
   padding: 32px;
-  max-width: 77%;
+  max-width: 1000px;
 }
 
 .swiper-slide {
+  width: 100%;
   display: flex;
   justify-content: center;
 }
