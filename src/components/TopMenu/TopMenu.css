@@ -1,0 +1,36 @@
+.top-menu {
+  background-color: var(--color-primary);
+  margin: 0;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.top-menu img {
+  max-width: 50px;
+  height: auto;
+  margin-left: 1rem;
+}
+
+.options-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 0;
+  margin-right: 1rem;
+}
+
+.list-item {
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--color-secondary);
+  cursor: pointer;
+}
+
+.list-item:hover {
+  opacity: 0.7;
+}

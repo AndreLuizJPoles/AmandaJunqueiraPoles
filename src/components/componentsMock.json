@@ -56,5 +56,23 @@
         "value": "https://www.google.com"
       }
     ]
+  },
+  "top_menu": {
+    "logoSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxEOKeHkeYt7QJAUE67Gvs5Ug4FervUqzjfw&s",
+    "logoAlt": "Logo Amanda Junqueira Poles",
+    "items": [
+      {
+        "label": "Sobre Mim",
+        "href": "#about_me"
+      },
+      {
+        "label": "Serviços",
+        "href": "#services"
+      },
+      {
+        "label": "Contatos",
+        "href": "#contacts"
+      }
+    ]
   }
 }
